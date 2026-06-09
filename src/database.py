@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 
-DB_PATH = "data/astromind.db"
+DB_PATH = "data/astroperformance.db"
 
 
 def get_connection():

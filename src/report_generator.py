@@ -1,4 +1,4 @@
-class AstroMindAI:
+class AstroPerformanceAI:
 
     def gerar_relatorio(
         self,
@@ -14,7 +14,7 @@ class AstroMindAI:
         risco
     ):
         texto = f"""
-ASTROMIND AI - RELATÓRIO OPERACIONAL
+ASTROPERFORMANCE AI - RELATÓRIO OPERACIONAL
 
 Astronauta/Operador: {astronauta}
 Missão: {missao}

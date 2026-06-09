@@ -36,7 +36,7 @@ A crescente expansão da economia espacial exige o desenvolvimento de soluções
 
 Durante missões espaciais, treinamentos orbitais, operações em bases remotas e simulações lunares, fatores como fadiga física, alterações fisiológicas e condições ambientais podem impactar diretamente a segurança da missão e o desempenho operacional.
 
-O AstroMind AI foi desenvolvido como uma Prova de Conceito (POC) para demonstrar como técnicas de Inteligência Artificial, Machine Learning, Visão Computacional e análise de dados podem ser utilizadas para apoiar o monitoramento e a tomada de decisão em cenários espaciais.
+O AstroPerformance AI foi desenvolvido como uma Prova de Conceito (POC) para demonstrar como técnicas de Inteligência Artificial, Machine Learning, Visão Computacional e análise de dados podem ser utilizadas para apoiar o monitoramento e a tomada de decisão em cenários espaciais.
 
 ---
 
@@ -238,7 +238,7 @@ Análise da frequência dos riscos operacionais.
 # Estrutura do Projeto
 
 ```text
-astromind-ai/
+AstroPerformance AI/
 
 ├── README.md
 ├── requirements.txt
@@ -310,7 +310,7 @@ Inserir screenshot da seleção do vídeo.
 
 # Aplicação no Contexto Espacial
 
-Em um cenário real, o AstroMind AI poderia ser integrado a:
+Em um cenário real, o AstroPerformance AI poderia ser integrado a:
 
 * sensores biométricos embarcados;
 * smartwatches espaciais;
@@ -335,7 +335,7 @@ Em um cenário real, o AstroMind AI poderia ser integrado a:
 
 ## 1.0.0 - Junho/2026
 
-* Desenvolvimento da POC AstroMind AI;
+* Desenvolvimento da POC AstroPerformance AI;
 * Implementação de Visão Computacional com OpenCV;
 * Implementação de Machine Learning com Random Forest;
 * Dashboard interativo com Streamlit e Plotly;

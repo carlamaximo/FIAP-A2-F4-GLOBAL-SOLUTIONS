@@ -4,11 +4,11 @@ import plotly.express as px
 from database import criar_tabela, salvar_analise, listar_analises
 from ml_model import treinar_modelo, prever_fadiga, calcular_risco_operacional
 from video_analysis import salvar_video, detectar_movimento_com_opencv, calcular_distancia, calcular_velocidade_media
-from report_generator import AstroMindAI
+from report_generator import AstroPerformanceAI
 
 
 st.set_page_config(
-    page_title="AstroMind AI",
+    page_title="AstroPerformance AI",
     page_icon="🚀",
     layout="wide"
 )
@@ -18,11 +18,11 @@ criar_tabela()
 modelo = treinar_modelo()
 
 
-st.title("🚀 AstroMind AI")
+st.title("🚀 AstroPerformance AI")
 st.subheader("Monitoramento Inteligente de Fadiga em Astronautas")
 
 st.write("""
-O AstroMind AI é uma Prova de Conceito para análise de fadiga e risco operacional
+O AstroPerformance AI é uma Prova de Conceito para análise de fadiga e risco operacional
 em astronautas ou operadores atuando em ambientes extremos, como simulações lunares,
 missões orbitais, bases remotas e treinamentos espaciais.
 """)
@@ -118,7 +118,7 @@ if video:
                     oxigenio
                 )
 
-                gerador = AstroMindAI()
+                gerador = AstroPerformanceAI()
 
                 relatorio = gerador.gerar_relatorio(
                     astronauta,
